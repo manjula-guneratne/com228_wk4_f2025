@@ -8,6 +8,9 @@ public class MemberAccessTest {
 		time.hour = 7;
 		time.minute = 15;
 		time.second = 30;
-	}
+		
+		System.out.println(time.toUniversalString());
+		System.out.println(time.toString());
+	}	
 
 }
